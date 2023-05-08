@@ -1,0 +1,23 @@
+.container{
+    width: 40vw;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+.image{
+    width: 20vw;
+    margin-left: 7em ;
+}
+
+.text{
+    width: 35vw;
+    border-radius: 20px;
+    height: 2.5em;
+}
+
+.button{
+    width: 8vw;
+    margin-top: 1.5em;
+    height: 2em;
+    border-radius: 10px;
+}
