@@ -6,7 +6,7 @@ input.value = urlParams.get('text')
 
 function search(){
     const values = '?text=' + input.value;
-    document.location.href = 'searchResults.html' + values;
+    document.location.href = 'results' + values;
 
 }
 const boton = document.getElementById('button');
@@ -19,5 +19,5 @@ document.addEventListener('keydown',function(event){
 
 const indexButton = document.getElementById('indexButton');
 indexButton.addEventListener('click',function(){
-    fetch(url + "/testSpider")
+    fetch(url + "/spider")
 })

@@ -34,14 +34,6 @@ public class SearchController {
         spiderService.indexWebPages();
     }
 
-    @GetMapping("/")
-    public String home(){
-        return "index.html";
-    }
 
-    @GetMapping("/results")
-    public String results(){
-        return "searchResults.html";
-    }
     
 }

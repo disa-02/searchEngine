@@ -25,7 +25,7 @@ fetch(url + '/search?text=' + value)
 
 function search(){
     const values = '?text=' + input.value;
-    document.location.href = 'searchResults.html' + values;
+    document.location.href = 'results' + values;
 
 }
 const boton = document.getElementById('button');
